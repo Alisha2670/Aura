@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment variables & secrets (CRITICAL: never commit real keys!)
+.env
+*.env.local
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite3
+
+# Node modules (for frontend later)
+node_modules/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
